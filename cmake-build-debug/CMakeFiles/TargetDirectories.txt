@@ -1,0 +1,3 @@
+/Users/isido/CLionProjects/tic-tac-toe-cpp/cmake-build-debug/CMakeFiles/tic_tac_toe_cpp.dir
+/Users/isido/CLionProjects/tic-tac-toe-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/isido/CLionProjects/tic-tac-toe-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
