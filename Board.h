@@ -19,10 +19,10 @@ private:
     int m_step;
 public:
     Board();
-    char judgeWinner();
+    char judgeWinner() const;
     status putOX(int row, int col, char ox);
     void cleanBoard();
-    void printBoard();
+    void printBoard() const;
 };
 
 #endif //TIC_TAC_TOE_CPP_BOARD_H

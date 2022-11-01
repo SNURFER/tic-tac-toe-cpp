@@ -19,8 +19,8 @@ private:
 private:
     void resetGame();
     void putOX(int row, int col);
-    void printManual();
-    void printBoard();
+    void printManual() const;
+    void printBoard() const;
     void eventDispatcher(char input);
     void endGame();
     void toggleTurn();

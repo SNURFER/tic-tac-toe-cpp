@@ -58,7 +58,7 @@ void TicTacToe::putOX(int row, int col) {
     if (progress == status::FINISHED) resetGame();
 }
 
-void TicTacToe::printManual() {
+void TicTacToe::printManual() const {
     std::cout << "==============================================" << std::endl;
     std::cout << "'m' : print manual" << std::endl;
     std::cout << "'e' : end game" << std::endl;
@@ -102,7 +102,7 @@ void TicTacToe::endGame() {
     exit(1);
 }
 
-void TicTacToe::printBoard() {
+void TicTacToe::printBoard() const {
     m_board->printBoard();
 }
 

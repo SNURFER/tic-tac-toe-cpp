@@ -8,7 +8,7 @@
 Board::Board(): m_board(kSize, std::vector<char>(kSize, '-')), m_step(0) {
 }
 
-char Board::judgeWinner() {
+char Board::judgeWinner() const {
 
     if ((m_board[0][0] == m_board[0][1]) && (m_board[0][1] == m_board[0][2]) && (m_board[0][0] == 'X' || m_board[0][0] == 'O'))
         return m_board[0][0];
@@ -68,7 +68,7 @@ void Board::cleanBoard() {
     printBoard();
 }
 
-void Board::printBoard() {
+void Board::printBoard() const {
     std::cout << "=========print board========" << std::endl;
     std::cout << std::endl;
     for (int i = 0; i < kSize; i++) {
